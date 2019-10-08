@@ -4,3 +4,9 @@ def oxford_comma(array)
  start=less.join(", ")
  final=start+", and "+last
 end
+
+
+ array.join(", ")
+  number=array.length
+  array[number-2]="and"
+  array
